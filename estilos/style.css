@@ -24,6 +24,7 @@ body {
     background-image: linear-gradient(to right, #D2D9D4 7% ,#4a524c);
     color: #F2F2F2;
     margin: 0px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -61,7 +62,6 @@ main {
     margin-bottom:15px;
     max-width: 800px;
     min-width: 320px;
-    /*width: 800px;*/
     background-color: #D2D9D4;
     padding: 25px;
     border-radius: 10px 0px;
@@ -99,7 +99,17 @@ footer > p {
     text-align: center;
     margin: 4px;
 }
-footer > p > img {
+footer ul {
+    list-style-position: inside;
+    list-style-type: none;
+    columns: 2;
+    display: block;
+    margin:auto;
+    max-width: 400px;
+    min-width: 320px;
+}
+footer > ul > li > img {
+    margin: auto;
     height: 15px;
     width: 15px;
 }
