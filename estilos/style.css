@@ -49,7 +49,6 @@ header > h1 {
 }
 header > p {
     text-align: center;
-    margin: 95%;
 }
 header > nav {
     margin-bottom: 10px;
@@ -60,7 +59,9 @@ main {
     height: 450px;
     margin-top: -3px;
     margin-bottom:15px;
-    /*width: 1000px;*/
+    max-width: 800px;
+    min-width: 320px;
+    /*width: 800px;*/
     background-color: #D2D9D4;
     padding: 25px;
     border-radius: 10px 0px;
